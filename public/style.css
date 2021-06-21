@@ -1,0 +1,435 @@
+
+/***************************HTML TAGS*********************************/
+
+body{
+  font-family: 'Roboto', sans-serif;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: white;
+  line-height: 1.5;
+  font-family: "Roboto",sans-serif;
+  font-weight: normal;
+
+}
+
+section{
+  margin-left: 200px;
+  height: 100%;
+  background-color: white;
+
+   text-align: center;
+   box-sizing:border-box;
+}
+
+
+
+
+
+
+/************************************SIDEBAR***********************************/
+
+.name-heading{
+ padding-left: 35px;
+  color: black;
+  font-size: 1.8rem;
+   font-family: "Roboto",sans-serif;
+  font-weight: 400;
+
+}
+
+.name-main{
+  text-decoration: none;
+}
+
+p.name-heading{
+    width: 200px;
+    font-weight: 300;
+    height: 1.5rem;
+     font-family: "Roboto",sans-serif;
+     font-size: 1rem;
+}
+
+.name-div{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 0px;
+   background-color: rgba(0, 0, 0, 0.08);
+}
+
+.sidebar {
+  height: 100%;
+  position: fixed;
+  background-color: #F2F2F2;
+  transition: 0.5s;
+  width: 200px;
+  padding-left: 0;
+  font-weight: 300;
+}
+
+.sidebar-topic{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.side-anchor {
+  padding: 8px 8px 8px 3px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #212529;
+  display: block;
+  transition: 0.3s;
+  font-weight: 400;
+  height: 1.5rem;
+   font-family: "Roboto",sans-serif;
+}
+
+.anchor-div{
+   padding-left: 0.5rem;
+}
+
+, a:hover, a:focus, a:active {
+      text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: rgba(0, 0, 0, 0.08);
+}
+
+.sidebar .ii:hover{
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.sidebar-content{
+  margin-left: 22px;
+  position: absolute;
+}
+
+
+/****************************SECTION **************************/
+
+
+.box-content{
+      padding: 5% 2% 5% 2%;
+}
+
+.Head{
+  color: Black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5rem;
+      font-weight: 300;
+      line-height: 1.2;
+      margin-left: 0px;
+}
+
+.box{
+  padding: 25px ;
+
+}
+.inside{
+  margin: 45px 45px 45px 45px;
+}
+
+.in{
+  margin:20px 20px 20px 20px ;
+}
+
+.Data{
+  padding: 10% 5% 10% 250px;
+  text-align: left;
+}
+
+.heading{
+  padding-top:0.5rem;
+  padding-bottom:0rem;
+  text-align: left;
+  padding-left: 288px;
+  font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      line-height: 1.2;
+
+}
+
+.inner{
+  text-align: left;
+  margin-left: 240px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 5rem;
+      font-weight: 900;
+position: relative;
+top: 75px;
+      color: rgba(0, 0, 0, 0.08);
+}
+h3{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.container-fluid{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+h3,h4,h5,h6{
+  margin-left: 0;
+}
+
+
+/**************************SECTION HOME*************************/
+
+
+
+.circle-image {
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 250px;
+  height: 250px;
+}
+.image{
+  padding: 10px ;
+}
+.box-heading{
+
+  font-size: 4rem;
+      font-weight: 300;
+      line-height: 1.2;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/**************************SECTION ABOUT*************************/
+
+.about-content{
+  font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.5;
+    color: #212529;
+  word-spacing: 0.6rem;
+   font-family: "Roboto",sans-serif;
+}
+
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.abb{
+  margin-bottom: 0;
+}
+
+/**************************SECTION EDUCATION*************************/
+
+.hh-heading{
+
+  font-family: "Roboto",sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+color: #212529;
+word-spacing: 0.6rem;
+margin-top: 1rem;
+}
+
+.hh-content{
+  font-family: "Roboto",sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.8;
+color: #212529;
+
+word-spacing: 0.6rem;
+}
+
+/**************************SECTION PROJECT*************************/
+.project-image{
+  height: 100%;
+  width: 100%;
+}
+
+.hh-con{
+  font-family: "Roboto",sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.7;
+color: #212529;
+word-spacing: 0.6rem;
+}
+
+/**************************SECTION SKILL*************************/
+ .skill-heading.hh-con{
+  display: inline;
+  margin-left: 4%;
+
+  padding-right: 0;
+  position: relative;
+  top: 0.365rem;
+}
+
+.skill-box{
+  padding: 5%;
+  padding-left: 12%;
+}
+
+.sk{
+    padding-left: 12%;
+}
+
+.skill-box:hover{
+  background-color: #F2F2F2;
+}
+
+/****************************SECTION ACHIEVEMENT*************************/
+
+.certi{
+  color:  #8C8C8C;
+}
+
+.certi:hover{
+color: black;
+}
+
+.achie:hover{
+    background-color: #F2F2F2;
+}
+
+.achie{
+  display: inline;
+}
+
+/****************************SECTION CONTACT*************************/
+
+.contact-info{
+  display: inline;
+}
+
+.contact-box{
+  padding-top:2%;
+  padding-bottom: 2%;
+
+  text-align: left;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.feature-container{
+  text-align: center;
+}
+
+.contact-icon{
+     padding-right: 5%;
+}
+.inner{
+
+  text-align: left;
+  margin-left: 240px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 5rem;
+      font-weight: 900;
+position: relative;
+top: 75px;
+      color: rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (max-width: 850px){
+  .inner{
+    display: none;
+  }
+  .Head{
+    background-color: #F2F2F2;
+  }
+
+}
+
+
+/******************************MEDIA QUERIES*******************************/
+
+/*On screens that are less than 6500px wide,*/
+@media screen and (max-width: 650px){
+  .sidebar{
+    width:55px;
+  }
+
+  .inner{
+    display: none;
+  }
+
+  .sidebar span{
+    display: none;
+  }
+
+  .name{
+    display: none;
+  }
+
+
+  .inside{
+    margin: 45px 45px 45px 35px;
+  }
+
+  .in{
+    margin:20px 20px 20px 10px ;
+  }
+
+  .Data{
+    padding: 10% 5% 10% 65px;
+    text-align: left;
+  }
+
+  .heading{
+    padding: 1% 5% 1% 100px;
+
+  }
+
+  .skill-box{
+    padding: 5%;
+    padding-left: 8%;
+  }
+
+  .sk{
+      padding-left: 8%;
+  }
+
+  .hh-heading{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    word-spacing: 0.4rem;
+
+  }
+
+  .hh-content{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    word-spacing: 0.4rem;
+  }
+
+  .hh-con{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    word-spacing: 0.4rem;
+  }
+
+  .about-content{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    word-spacing: 0.4rem;
+  }
+
+
+
+  .box-heading{
+
+    font-size: 3rem;
+        font-weight: 300;
+        line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+  }
+}
